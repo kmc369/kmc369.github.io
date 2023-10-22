@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "Photon by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
   "main": "index.js",
+ 
   "scripts": {
     "start": "http-server -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "http-server": "^14.1.1"
-  }
+  "license": "ISC"
 }
