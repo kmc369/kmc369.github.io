@@ -3481,6 +3481,46 @@ input, select, textarea {
 
 	}
 
+	
+
+	.image-vetsy-item {
+		/* border: 3px solid red; */
+		border-radius: 5px;
+		position: relative; 
+		overflow: hidden; 
+	  }
+
+	  .button-vetsy-port{
+		display: hidden;
+	  }
+	  .button-vetsy-port:hover{
+		width: 40px;
+		height: 40px;
+	  }
+	  
+	  .image-vetsy-item img {
+		width: 100%;
+		height: 100%;
+		display: block;
+		transition: opacity 0.3s, filter 0.3s;
+	  }
+	  
+	  .image-vetsy-item:hover img {
+		opacity: 0.7; 
+		filter: grayscale(100%);
+	  }
+	  
+	  .image-vetsy-item:hover {
+		/* border: 3px solid orange; */
+		background-color: rgba(0, 0, 0, 0.1);
+	  }
+
+	  .view-for-site{
+		position: absolute;
+	  }
+
+	
+
 /* XXSmall */
 
 	@media screen and (max-width: 320px) {
